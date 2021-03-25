@@ -1,0 +1,3 @@
+March 24, 2021
+> When importing from a folder like apis, you need to specifiy an __init__.py file on the server. Does not work without it like it does locally.
+> Server is running python3... don't worry, use your f strings as needed.

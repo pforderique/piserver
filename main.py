@@ -25,7 +25,7 @@ def greetme():
     user = request.form['name']
     return redirect(url_for('greet', name = user))
   else:
-    return render_template('login.html')
+    return render_template('greet.html')
 
 @app.route('/API', methods = ['GET'])
 def API():
